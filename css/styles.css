@@ -238,8 +238,24 @@
   .value-list {
     display: flex;
     gap: 24px;
+    }
+ /* Value icons */
+  .thumb {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 112px;
+   margin-bottom: 8px;
+   background: #F4F4FD;
+   border-radius: 4px;
+   }
     
+  .value-icon {
+   display: inline-block;
+   width: 64px;
+   height: 64px;
   }
+          
 
     /* What are we doing */
   .doing {
