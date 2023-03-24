@@ -272,9 +272,7 @@
     display: flex;
     gap: 24px;
   }
-  .doing-first {
-    
-  }
+  
     /* Our Team */
   .section-team .name {
     font-family: 'Roboto';
@@ -418,6 +416,15 @@
     .customers {
     padding: 120px 0;
          }
+  .customers-title {
+      margin-bottom: 72px;
+      font-size: 36px;
+      line-height: 1.1;
+      text-align: center;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      color: #2e2f42;
+    }
     .customers-list {
     display: flex;
     gap: 24px;
@@ -441,10 +448,10 @@
     .customers-list-link:focus {
       border-color: #404bbf;
     }
-    .customers-list-link:hover {
+    .customers-list-link:hover .customers-list-icon {
      fill: #404bbf;
     }
-    .customers-list-link:focus {
+    .customers-list-link:focus .customers-list-icon{
      fill: #404bbf;
     }
     .customers-list-icon {
@@ -515,10 +522,10 @@
     background: #4D5AE5;
      }
   
-   .footer-link :hover {
+   .footer-link:hover {
     background-color:#31D0AA;
    }
-   .footer-link :focus {
+   .footer-link:focus {
     background-color:#31D0AA;
    }
   
