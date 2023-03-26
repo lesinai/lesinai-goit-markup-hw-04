@@ -320,12 +320,15 @@
     flex-basis: calc((100% - 3 * 24px) / 4);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    height: 428px;
+    width: 264px;
   }
+  
   .social-list {
    display: flex;
    justify-content: center;
    gap: 24px;
-   padding: 40px;
+   padding-bottom: 32px;
     }
   .social-list-icon {
   fill: #f4f4fd;
@@ -350,6 +353,13 @@
     padding-top: 96px;
     padding-bottom: 84px;
    }
+  .portfolio-boxshaddow {
+    display: block;
+    }
+  .portfolio-boxshaddow:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
+    }
   .portfolio-btns-list {
     display: flex;
     gap: 24px;
